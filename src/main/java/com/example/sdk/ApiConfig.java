@@ -19,7 +19,7 @@ public final class ApiConfig {
   /**
    * Default API version.
    */
-  public static final String DEFAULT_API_VERSION = "v1";
+  public static final String DEFAULT_API_VERSION = "1.0";
   /**
    * Default API base URL.
    */
