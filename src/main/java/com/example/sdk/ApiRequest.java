@@ -1,12 +1,16 @@
 package com.example.sdk;
 
-import com.google.gson.Gson;
 import com.example.sdk.ApiEndPoints.ApiEndPoint;
 import com.example.sdk.ApiException.FailedAccessTokenException;
 import com.example.sdk.ApiException.FailedRequestException;
 import com.example.sdk.types.HttpMethod;
+import com.google.gson.Gson;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
